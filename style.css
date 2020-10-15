@@ -1,9 +1,12 @@
 body{
     margin: 0px;
-    background-color: violet;
 }
 .Hello{
     background-color: blue;
 }
 
-
+.main-img{
+    background: url(images/background.jpg);
+    height: 100%;
+    background-size: cover;
+}
