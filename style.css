@@ -1,67 +1,51 @@
-body{
+body {
     margin: 0px;
 }
-ul{
-    list-style: none;
-}
-.main-img{
+
+.main-img {
     background: url(images/background.jpg);
     height: 100vh;
     background-size: cover;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-.header .menu ul{
-    display: flex;
+.menu--left, .menu--right {
+    width: calc(476px + 1rem);
 }
-.header .menu img{
+.menu--left {
+    margin-left: 1rem;
+}
+.menu--right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 1rem;
+}
+
+.menu__item {
+    display: flex;
+    padding: 0.5rem 0;
+}
+
+.menu__icon--left {
     width: 15px;
-    margin-right: 10px;
-}
-.header .contacts ul{
-    display: flex;
-}
-.header .contacts img{
-    width: 13px;
-    padding: 0 5px 0 20px;
 }
 
-.header .logo img{
-    width: 90px;
+.menu__icon--right {
+    width: 15px;
+    margin-right: 0.2rem;
 }
-.header .menu ul a{
+.header__link {
     text-transform: uppercase;
-    text-decoration: none;   
+    text-decoration: none;
     color: #ffffff;
-}
-.header .contacts ul a{
-    text-transform: uppercase;
-    text-decoration: none; 
-    color: #ffffff;
-}
-
-.menu-left li{
-    padding-right: 20px;
-}
-
-.menu-right li{
-    padding-left: 20px;
-}
-
-.menu{
-
-}
-/* .logo a{
-justify-content: center
-} */
-.contacts ul{
-    justify-content: flex-end;
-    margin-right: 30px;
+    margin-right: 1rem;
 }
 
 
