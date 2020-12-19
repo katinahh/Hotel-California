@@ -27,13 +27,17 @@ body {
     align-items: flex-end;
     margin-right: 1rem;
 }
-
+.logo{
+    height: 50px;
+    filter: brightness(10);
+}
 .menu__item {
     display: flex;
     padding: 0.5rem 0;
 }
 
 .menu__icon--left {
+    display: flex;
     width: 15px;
 }
 
@@ -91,7 +95,6 @@ body {
 /* .img--width{
     width: 500px;
     /* height: 200px; */
-} */
 
 /* .room--properties{
     display: flex;
