@@ -48,11 +48,26 @@
 
 
     <section class="rooms">
-        <div>
+        <!-- <select size="1">
+            <option value="renderRoomList(3)">show 3</option>
+            <option value="renderRoomList(6)">show 6</option>
+            <option value="renderRoomList(9)">show 9</option>
+        </select> -->
+        <div class="div__for--select">
+            <select id="renderRoomList" class="select__designe" onchange="renderRoomList(value)">
+                <option selected value="3">Show 3</option>
+                <option value="6">Show 6</option>
+                <option value="9">Show 9</option>
+            </select>
+         </div>
+        
+
+
+        <!-- <div>
             <button onclick="renderRoomList(10)">10</button>
             <button onclick="renderRoomList(20)">20</button>
             <button onclick="renderRoomList(30)">30</button>
-        </div> 
+        </div>  -->
             <div id="room__acoommodation" class="room__acoommodation">
                
                 <!-- <div class="hotels--rooms">

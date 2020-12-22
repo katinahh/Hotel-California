@@ -17,7 +17,7 @@ let renderRoomList = (itemsCount) =>{
     room.innerHTML = result;
 };
 
-renderRoomList(10);
+renderRoomList(3);
 // renderRoomList(20);
 
 
